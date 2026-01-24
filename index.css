@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+  color: limegreen;
+  font-family: monospace;
+  flex-direction: column;
+}
+
+.time {
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+button {
+  font-size: 25px;
+  margin: 10px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: limegreen;
+  color: black;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.8;
+}
