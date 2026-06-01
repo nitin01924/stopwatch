@@ -1,86 +1,219 @@
 # ⏱️ Stopwatch
 
-A simple, elegant stopwatch web application built with vanilla JavaScript, HTML, and CSS.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-Markup-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-Logic-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+</p>
 
-## 🎯 Features
+<p align="center">
+  <strong>A clean and elegant stopwatch built with Vanilla JavaScript.</strong>
+</p>
 
-- **Start**: Begin timing with a single click
-- **Stop**: Pause the timer without resetting
-- **Reset**: Clear the timer back to 00:00:00
-- **Real-time Display**: Shows hours, minutes, and seconds in HH:MM:SS format
-- **Clean UI**: Dark theme with neon green accents for a modern look
-- **Responsive Design**: Works on all screen sizes
-
-## 🚀 Live Demo
-
-Check out the live version: [https://nitin01924.github.io/stopwatch/](https://nitin01924.github.io/stopwatch/)
-
-## 📁 Project Structure
-
-```
-stopwatch/
-├── index.html       # HTML structure
-├── index.css        # Styling and layout
-├── index.js         # Timer logic and event handling
-└── README.md        # This file
-```
-
-## 🛠️ Technologies Used
-
-- **HTML5** - Markup structure
-- **CSS3** - Styling and responsive design
-- **JavaScript (Vanilla)** - Timer functionality and DOM manipulation
-
-## 📋 How It Works
-
-1. Click the **Start** button to begin the timer
-2. Click the **Stop** button to pause the timer
-3. Click the **Reset** button to reset the timer to 00:00:00
-4. The timer displays hours, minutes, and seconds in HH:MM:SS format
-
-### JavaScript Logic
-
-The stopwatch uses:
-- `setInterval()` to update the timer every 1 second
-- Event listeners for button clicks
-- Time formatting with `padStart()` to ensure two-digit display
-
-## 🎨 Design
-
-- **Color Scheme**: Black background with lime green text and buttons
-- **Font**: Monospace for a digital stopwatch feel
-- **Layout**: Centered with flexbox for a clean, modern appearance
-- **Button Styling**: Large, clickable buttons with hover effects
-
-## 🚀 Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/nitin01924/stopwatch.git
-   cd stopwatch
-   ```
-
-2. Open `index.html` in your web browser
-
-That's it! No dependencies or build process needed.
-
-## 💡 Possible Enhancements
-
-- Add lap/split time functionality
-- Add audio notification when timer reaches a target
-- Implement keyboard shortcuts (spacebar to start/stop)
-- Add milliseconds display
-- Add preset timer options
-- Local storage to save timer history
-
-## 📄 License
-
-This project is open source and available for anyone to use and modify.
-
-## 👤 Author
-
-Created by [@nitin01924](https://github.com/nitin01924)
+<p align="center">
+  Start • Stop • Reset • Track Time
+</p>
 
 ---
 
-**Enjoy timing with your stopwatch!** ⏱️
+# ✨ Features
+
+<div align="center">
+
+⏯️ Start Timer
+
+⏸️ Pause Timer
+
+🔄 Reset Timer
+
+🕒 Real-Time Updates
+
+📱 Responsive Design
+
+🎨 Modern Dark Theme
+
+⚡ Lightweight & Fast
+
+</div>
+
+---
+
+# 🚀 Live Demo
+
+<p align="center">
+
+### 🌐 Try It Here
+
+https://nitin01924.github.io/stopwatch/
+
+</p>
+
+---
+
+# 🛠️ Tech Stack
+
+## 💻 Frontend
+
+<p align="left">
+<img src="https://skillicons.dev/icons?i=html,css,javascript" />
+</p>
+
+| Technology | Purpose          |
+| ---------- | ---------------- |
+| HTML5      | Structure        |
+| CSS3       | Styling & Layout |
+| JavaScript | Stopwatch Logic  |
+
+---
+
+# 📂 Project Structure
+
+```bash
+stopwatch/
+├── index.html
+├── index.css
+├── index.js
+└── README.md
+```
+
+---
+
+# ⚙️ How It Works
+
+```text
+Start Button
+      │
+      ▼
+setInterval()
+      │
+      ▼
+Update Every Second
+      │
+      ▼
+Display HH:MM:SS
+      │
+      ▼
+Stop / Reset
+```
+
+---
+
+# 🎮 Controls
+
+| Button   | Action             |
+| -------- | ------------------ |
+| ▶️ Start | Starts the timer   |
+| ⏸️ Stop  | Pauses the timer   |
+| 🔄 Reset | Resets to 00:00:00 |
+
+---
+
+# 🧠 JavaScript Concepts Used
+
+✅ setInterval()
+
+✅ Event Listeners
+
+✅ DOM Manipulation
+
+✅ Time Formatting
+
+✅ padStart()
+
+---
+
+# 🎨 Design Highlights
+
+<div align="center">
+
+⚫ Black Background
+
+🟢 Neon Green Elements
+
+⌨️ Monospace Font
+
+📱 Responsive Layout
+
+✨ Hover Effects
+
+</div>
+
+---
+
+# 🚀 Getting Started
+
+## Clone Repository
+
+```bash
+git clone https://github.com/nitin01924/stopwatch.git
+```
+
+## Open Project
+
+```bash
+cd stopwatch
+```
+
+Open:
+
+```bash
+index.html
+```
+
+in your browser.
+
+---
+
+# 💡 Future Enhancements
+
+🔹 Lap Time Feature
+
+🔹 Milliseconds Support
+
+🔹 Keyboard Shortcuts
+
+🔹 Audio Notifications
+
+🔹 Local Storage History
+
+🔹 Countdown Mode
+
+🔹 Custom Themes
+
+---
+
+# 📊 Project Highlights
+
+<div align="center">
+
+⚡ Zero Dependencies
+
+⚡ Pure Vanilla JavaScript
+
+⚡ Beginner Friendly
+
+⚡ Fast & Lightweight
+
+</div>
+
+---
+
+# 👨‍💻 Author
+
+<div align="center">
+
+### Nitin Kumar
+
+<a href="https://github.com/nitin01924">
+<img src="https://img.shields.io/badge/GitHub-nitin01924-black?style=for-the-badge&logo=github"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### ❤️ Built with HTML, CSS & JavaScript
+
+</div>
